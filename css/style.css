@@ -1,0 +1,87 @@
+		body {
+			margin: 0 auto;
+			background: #000;
+		}
+		
+		.night {
+			background-color:black;
+			background-image:
+			radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+			radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+			radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+			radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+			background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+			background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+		}
+
+		header {
+			display: flex;
+			justify-content: flex-end;
+			margin: 1%;
+			animation: fadein 1.5s;
+		}
+
+		img {
+			max-width: 100%;
+		}
+
+		h1 {
+			animation: fadein 3s;
+			color: #fff;
+			font-family: 'Comfortaa', cursive;
+			font-size: 41px;
+			text-align: center;
+			margin: 10% 0 0 0;
+		}
+
+		.typewriterdiv h1 {
+			overflow: hidden;
+			border-right: .15em solid #00BFFF;
+			white-space: nowrap;
+			margin: 0 auto;
+			letter-spacing: .18em;
+			animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+		}
+	
+		section {
+			display: flex;
+			justify-content: center;
+		}
+
+		#socials {
+			margin-top: 6%;
+		}
+
+		.imgdiv {
+			animation: 2.5s show ease;
+			margin: 0 2%;
+		}
+
+		.typewriterdiv {
+			margin-top: 6%;
+		}
+
+		.secdiv {
+			width: 70%;
+			display: flex;
+			justify-content: space-evenly;
+			margin-top: 3%;
+			animation: SlideinTop 1s ease 1s 1 normal backwards;
+		}
+
+		svg:hover {
+			transform: scale(1.3);
+		}
+
+		svg.grow {
+			transition: all .3s ease-in-out;
+		}
+
+		@media (min-width: 320px) and (max-width: 768px) {
+			.imgdiv {width: 100%;}
+			.imgmobile {display: block; margin-top: 25%; height: auto;}
+			h1 {font-size: medium;}
+			svg {width: 50px; height: 50px;}
+			.secdiv {justify-content: space-between; margin-top: 25%; width: 80%;}
+			.typewriterdiv {margin-top: 25%;}
+		}
