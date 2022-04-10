@@ -72,15 +72,15 @@ style=" fill:#fff;"><path d="M 25 2 C 12.309295 2 2 12.309295 2 25 C 2 37.690705
 	var arrLang = {
 	"uk-ua": {
     "WELCOMEDEVELOPER": "Приватний веб-розробник",
-    "DESCDEVELOPER": "Про мене",
+    "ABOUT": "Про мене",
   },
 	"en-gb": {
     "WELCOMEDEVELOPER": "Private Web Developer",
-    "ABOUT": "About",
+    "ABOUT": "About Me",
   },
 	"de-de": {
     "WELCOMEDEVELOPER": "Privater Webentwickler",
-    "DESCDEVELOPER": "About",
+    "ABOUT": "Über mich",
   }
 };
 
