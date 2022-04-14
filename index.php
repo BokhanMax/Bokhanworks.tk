@@ -3,7 +3,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>[ Max Bokhan : Web Developer ] HTML5 : CSS : PHP : Wordpress : OpenCart : Yii2</title>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js" async></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
 	<script src="/js/protect.js" async></script>
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
 	<link rel="stylesheet" type="text/css" href="/css/button.css">
@@ -27,7 +27,7 @@
 	</header>
 	<section id="logo">
 		<div class="imgdiv">
-			<img class="imgmobile" src="/img/bokhanmax.png" alt="Max Bokhan" width="900px" height="268px">
+			<img class="imgmobile" alt="Private Web Developer" src="/img/bokhanmax.png"/>
 		</div>
 	</section>
 	<section id="zagolovok">
@@ -37,7 +37,7 @@
 	</section>
 
 	<section id="socials">
-		<div class="secdiv">
+		<div class="socialsdiv">
 		<a href="https://t.me/bokhanworks">
 		<svg class="grow" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
 width="80" height="80"
