@@ -64,10 +64,10 @@
 		}
 
 		.socialsdiv {
-			width: 70%;
+			width: auto;
 			display: flex;
 			justify-content: space-evenly;
-			margin-top: 3%;
+			margin: 9% 8% 0 8%;;
 			animation: SlideinTop 1s ease 1s 1 normal backwards;
 		}
 
@@ -77,13 +77,4 @@
 
 		svg.grow {
 			transition: all .3s ease-in-out;
-		}
-
-		@media (min-width: 320px) and (max-width: 768px) {
-			.imgdiv {width: 100%;}
-			.imgmobile {display: block; margin-top: 25%; height: auto;}
-			h1 {font-size: medium;}
-			svg {width: 50px; height: 50px;}
-			.socialsdiv {justify-content: space-between; margin-top: 25%; width: 80%;}
-			.typewriterdiv {margin-top: 25%;}
 		}

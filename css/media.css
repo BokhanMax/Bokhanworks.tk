@@ -1,0 +1,8 @@
+@media (min-width: 320px) and (max-width: 768px) {
+    .imgdiv {width: 100%;}
+    .imgmobile {display: block; margin-top: 25%; height: auto;}
+    h1 {font-size: medium;}
+    svg {width: 50px; height: 50px;}
+    .socialsdiv {justify-content: space-between; margin: 25% 25px 0 25px; width: auto;}
+    .typewriterdiv {margin-top: 25%;}
+}
